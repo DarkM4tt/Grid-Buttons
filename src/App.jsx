@@ -8,28 +8,28 @@ const App = () => {
       fontWeight: "normal",
       fontStyle: "normal",
       textDecoration: "none",
-      fontSize: "16px",
+      fontSize: "25px",
       color: "#fcba03",
     },
     {
       fontWeight: "normal",
       fontStyle: "normal",
       textDecoration: "none",
-      fontSize: "16px",
+      fontSize: "25px",
       color: "#fcba03",
     },
     {
       fontWeight: "normal",
       fontStyle: "normal",
       textDecoration: "none",
-      fontSize: "16px",
+      fontSize: "25px",
       color: "#fcba03",
     },
     {
       fontWeight: "normal",
       fontStyle: "normal",
       textDecoration: "none",
-      fontSize: "16px",
+      fontSize: "25px",
       color: "#fcba03",
     },
   ]);
@@ -74,11 +74,13 @@ const App = () => {
           type="button"
           value="Bold"
           onClick={() => handleToggleStyle("fontWeight", "bold", index)}
+          className="bold"
         />
         <input
           type="button"
           value="Italic"
           onClick={() => handleToggleStyle("fontStyle", "italic", index)}
+          className="italic"
         />
         <input
           type="button"
@@ -86,6 +88,7 @@ const App = () => {
           onClick={() =>
             handleToggleStyle("textDecoration", "underline", index)
           }
+          className="underline"
         />
       </div>
     );
@@ -111,11 +114,13 @@ const App = () => {
               max="50"
               defaultValue="16"
               onChange={(e) => handleFontSizeChange(e, 0)}
+              className="fontSize"
             />
             <input
               type="color"
               value="#fcba03"
               onChange={(e) => handleColorChange(e, 0)}
+              className="colorValue"
             />
           </div>
         </div>
@@ -131,11 +136,13 @@ const App = () => {
               max="50"
               defaultValue="16"
               onChange={(e) => handleFontSizeChange(e, 1)}
+              className="fontSize"
             />
             <input
               type="color"
               value="#fcba03"
               onChange={(e) => handleColorChange(e, 1)}
+              className="colorValue"
             />
           </div>
         </div>
@@ -151,11 +158,13 @@ const App = () => {
               max="50"
               defaultValue="16"
               onChange={(e) => handleFontSizeChange(e, 2)}
+              className="fontSize"
             />
             <input
               type="color"
               value="#fcba03"
               onChange={(e) => handleColorChange(e, 2)}
+              className="colorValue"
             />
           </div>
         </div>
@@ -171,11 +180,13 @@ const App = () => {
               max="50"
               defaultValue="16"
               onChange={(e) => handleFontSizeChange(e, 3)}
+              className="fontSize"
             />
             <input
               type="color"
               value="#fcba03"
               onChange={(e) => handleColorChange(e, 3)}
+              className="colorValue"
             />
           </div>
         </div>
