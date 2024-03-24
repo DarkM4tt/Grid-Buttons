@@ -38,10 +38,8 @@ html {
 
 .left-column {
   display: flex;
-  justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
-  background-color: rgb(255, 85, 0);
 }
 
 .right-column {
@@ -52,12 +50,60 @@ html {
 
 .button-group {
   display: flex;
-  background-color: aqua;
-  flex-grow: 1;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  flex-grow: 1.5;
+}
+
+.button-group input {
+  padding: 3% 6%;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+
+.button-group .bold {
+  font-weight: 800;
+  border-color: rgb(210, 30, 30);
+}
+
+.button-group .italic {
+  font-style: italic;
+  border-color: greenyellow;
+}
+
+.button-group .underline {
+  text-decoration: underline;
+  border-color: rgb(92, 15, 226);
 }
 
 .input-group {
   display: flex;
+  justify-content: space-around;
+  align-items: center;
   flex-grow: 1;
-  background-color: rgb(208, 0, 255);
+}
+
+.input-group input:first-child {
+  padding: 3% 4%;
+  border: 1px solid orangered;
+  border-radius: 10px;
+}
+
+#style2 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: transparent;
+  width: 3rem;
+  height: 3rem;
+  border: none;
+  cursor: pointer;
+}
+#style2::-webkit-color-swatch {
+  border-radius: 50%;
+  border: 3px solid #0bedcb;
+}
+#style2::-moz-color-swatch {
+  border-radius: 50%;
+  border: 3px solid #000000;
 }

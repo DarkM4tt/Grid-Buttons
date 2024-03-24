@@ -119,6 +119,7 @@ const App = () => {
             <input
               type="color"
               value="#fcba03"
+              id="style2"
               onChange={(e) => handleColorChange(e, 0)}
               className="colorValue"
             />
@@ -141,6 +142,7 @@ const App = () => {
             <input
               type="color"
               value="#fcba03"
+              id="style2"
               onChange={(e) => handleColorChange(e, 1)}
               className="colorValue"
             />
@@ -163,6 +165,7 @@ const App = () => {
             <input
               type="color"
               value="#fcba03"
+              id="style2"
               onChange={(e) => handleColorChange(e, 2)}
               className="colorValue"
             />
@@ -185,6 +188,7 @@ const App = () => {
             <input
               type="color"
               value="#fcba03"
+              id="style2"
               onChange={(e) => handleColorChange(e, 3)}
               className="colorValue"
             />
