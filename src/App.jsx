@@ -125,7 +125,10 @@ const App = () => {
             />
           </div>
         </div>
-        <TextContainer index={0} text="My name is Prabhat" />
+        <TextContainer
+          index={0}
+          text="He's not the sharpest knife in the drawer"
+        />
       </div>
       <div className="grid-row">
         <div className="grid-item left-column">
@@ -148,7 +151,10 @@ const App = () => {
             />
           </div>
         </div>
-        <TextContainer index={1} text="My name is Prabhat" />
+        <TextContainer
+          index={1}
+          text="The big building was blazing with lights"
+        />
       </div>
       <div className="grid-row">
         <div className="grid-item left-column">
@@ -171,7 +177,10 @@ const App = () => {
             />
           </div>
         </div>
-        <TextContainer index={2} text="My name is Prabhat" />
+        <TextContainer
+          index={2}
+          text="Now you must answer some big questions"
+        />
       </div>
       <div className="grid-row">
         <div className="grid-item left-column">
@@ -194,7 +203,7 @@ const App = () => {
             />
           </div>
         </div>
-        <TextContainer index={3} text="My name is Prabhat" />
+        <TextContainer index={3} text="Get Your Act Together!" />
       </div>
     </div>
   );
